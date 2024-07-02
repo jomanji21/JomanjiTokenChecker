@@ -1,0 +1,38 @@
+Jomanji Token Checker
+
+Welcome to the Jomanji Token Checker, a stylish and efficient tool for validating Discord tokens. This tool categorizes tokens into valid, invalid, flagged, captched, and banned, and even checks for Nitro subscriptions!
+
+Features
+Token Validation: Check if a Discord token is valid, invalid, flagged, captched, or banned.
+Nitro Detection: Identify if the token has Nitro or Nitro Classic subscriptions.
+Stylish Console Output: Enjoy a visually appealing and user-friendly interface with rich text formatting.
+Detailed Results: Save categorized results in separate files for easy access.
+Installation
+Clone the repository:
+
+sh
+Code kopieren
+git clone https://github.com/yourusername/Jomanji-Token-Checker.git
+cd Jomanji-Token-Checker
+Install the required dependencies:
+
+sh
+Code kopieren
+pip install requests rich
+Usage
+Place your Discord tokens in a file named tokens.txt, with each token on a new line.
+Run the script:
+sh
+Code kopieren
+python token_checker.py
+Example Output
+
+How It Works
+Token Check: The script sends a request to the Discord API to validate each token and determine its status.
+Nitro Check: For valid tokens, it further checks for Nitro subscriptions.
+Result Storage: Results are saved in the output directory, categorized into valid.txt, invalid.txt, captcha.txt, banned.txt, flagged.txt, and nitro.txt.
+Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+Join Our Community
+Connect with us on Discord for updates, support, and more.
